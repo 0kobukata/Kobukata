@@ -30,6 +30,8 @@ class HeadandTail
 	    }
 	System.out.println("Heads: " + h + ", Tails: " + t) ;
 
+     if(h > t) System.out.println(name + " won!");
+     if(t > h) System.out.println(name + " lost.");
 	
     }
 }
